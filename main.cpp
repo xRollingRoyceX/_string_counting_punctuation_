@@ -22,7 +22,7 @@ const string::size_type string_size(string::size_type val, const string &s)
 }
 int main() 
 {
-    constexpr string::size_type str = 0;
+    const string::size_type str = 0;
     string s{"this is a string with my name s* * *!?!?"};
 
     cout << string_size(str, s);
